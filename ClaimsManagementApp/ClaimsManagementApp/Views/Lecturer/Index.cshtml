@@ -1,0 +1,252 @@
+﻿@model List<Claim>
+@{
+    ViewData["Title"] = "My Claims";
+}
+
+<style>
+    /* --- Dark Neon Tech Theme --- */
+    body {
+        background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+        color: #e0e0e0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h2 {
+        color: #00e0ff;
+        text-shadow: 0 0 10px rgba(0, 224, 255, 0.6);
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+        border: none;
+        border-radius: 50px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(90deg, #007cf0, #00dfd8);
+        box-shadow: 0 0 10px rgba(0, 223, 216, 0.5);
+    }
+
+    .btn-info {
+        background: linear-gradient(90deg, #00b4d8, #48cae4);
+        box-shadow: 0 0 10px rgba(0, 180, 216, 0.5);
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    /* --- Alerts --- */
+    .alert {
+        border-radius: 10px;
+        font-weight: 500;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    .alert-success {
+        background: rgba(0, 200, 83, 0.2);
+        border: 1px solid rgba(0, 200, 83, 0.5);
+        color: #b9f6ca;
+    }
+
+    .alert-info {
+        background: rgba(0, 150, 255, 0.15);
+        border: 1px solid rgba(0, 224, 255, 0.4);
+        color: #aeeaff;
+    }
+
+    /* --- Table --- */
+    .table {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        overflow: hidden;
+        color: #e0e0e0;
+    }
+
+        .table thead {
+            background: rgba(0, 224, 255, 0.1);
+            color: #00e0ff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+    .table-striped > tbody > tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 224, 255, 0.1);
+        transition: 0.3s ease;
+    }
+
+    th, td {
+        vertical-align: middle !important;
+    }
+
+        td strong {
+            color: #00dfd8;
+        }
+
+    .badge {
+        border-radius: 20px;
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .text-muted {
+        color: #9e9e9e !important;
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #00e0ff, #00dfd8);
+        border-radius: 10px;
+    }
+
+</style>
+
+<div class="container">
+    <h2>My Claims</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    <div class="mb-3 text-end">
+        <a href="@Url.Action("SubmitClaim")" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Submit New Claim
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">No claims submitted yet.</div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Submission Date</th>
+                        <th>Hours Worked</th>
+                        <th>Hourly Rate</th>
+                        <th>Total Amount</th>
+                        <th>Status</th>
+                        <th>Last Updated</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model.OrderByDescending(c => c.SubmissionDate))
+                    {
+                        <tr>
+                            <td>@claim.Id</td>
+                            <td>@claim.SubmissionDate.ToString("dd/MM/yyyy")</td>
+                            <td>@claim.HoursWorked</td>
+                            <td>R @claim.HourlyRate</td>
+                            <td><strong>R @claim.TotalAmount</strong></td>
+                            <td>
+                                <span class="badge @GetStatusBadgeClass(claim.Status)">
+                                    @GetStatusDisplayText(claim.Status)
+                                </span>
+                            </td>
+                            <td>
+                                <small class="text-muted">@GetLastActionTime(claim)</small>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("TrackClaim", new { id = claim.Id })"
+                                   class="btn btn-info btn-sm">
+                                    <i class="fas fa-eye"></i> Track
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+
+@functions {
+    string GetStatusBadgeClass(ClaimStatus status)
+    {
+        return status switch
+        {
+            ClaimStatus.Pending => "bg-warning",
+            ClaimStatus.ApprovedByCoordinator => "bg-info",
+            ClaimStatus.ApprovedByManager => "bg-success",
+            ClaimStatus.RejectedByCoordinator or ClaimStatus.RejectedByManager => "bg-danger",
+            ClaimStatus.Settled => "bg-success",
+            _ => "bg-secondary"
+        };
+    }
+
+    string GetStatusDisplayText(ClaimStatus status)
+    {
+        return status switch
+        {
+            ClaimStatus.Pending => "Pending Review",
+            ClaimStatus.ApprovedByCoordinator => "Approved by Coordinator",
+            ClaimStatus.RejectedByCoordinator => "Rejected by Coordinator",
+            ClaimStatus.ApprovedByManager => "Approved by Manager",
+            ClaimStatus.RejectedByManager => "Rejected by Manager",
+            ClaimStatus.Settled => "Settled",
+            _ => status.ToString()
+        };
+    }
+
+    string GetLastActionTime(Claim claim)
+    {
+        if (claim.Status == ClaimStatus.Pending)
+            return "Awaiting review";
+
+        return "Recently updated";
+    }
+}
+
+@section Scripts {
+    <script>
+        // Auto-refresh the page every 30 seconds to show updated status
+        setInterval(function() {
+            location.reload();
+        }, 30000); // 30 seconds
+
+        // Or use AJAX to update status without refreshing
+        function refreshClaimStatus(claimId) {
+            fetch(`/Lecturer/GetClaimStatus/${claimId}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Update the status badge
+                    const statusBadge = document.querySelector(`[data-claim-id="${claimId}"]`);
+                    if (statusBadge) {
+                        statusBadge.textContent = data.status;
+                        statusBadge.className = 'badge ' + data.statusClass;
+                    }
+                });
+        }
+    </script>
+}

@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Home - Claims Management";
+}
+
+<style>
+    /* --- Modern Dark Theme --- */
+    body {
+        background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+        color: #e0e0e0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1.display-4 {
+        color: #00e0ff;
+        text-shadow: 0 0 10px rgba(0, 224, 255, 0.6);
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        background: #1c1f26;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 25px rgba(0, 224, 255, 0.25);
+    }
+
+    .card-body i {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover i {
+        transform: scale(1.2);
+    }
+
+    .card-title {
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .card-text {
+        color: #b0b0b0;
+    }
+
+    /* --- Glowing Buttons --- */
+    .btn {
+        border: none;
+        border-radius: 50px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(90deg, #007cf0, #00dfd8);
+        box-shadow: 0 0 10px rgba(0, 223, 216, 0.5);
+    }
+
+    .btn-success {
+        background: linear-gradient(90deg, #00c853, #b2ff59);
+        box-shadow: 0 0 10px rgba(0, 200, 83, 0.5);
+    }
+
+    .btn-warning {
+        background: linear-gradient(90deg, #ffb300, #ffea00);
+        box-shadow: 0 0 10px rgba(255, 179, 0, 0.5);
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .card i {
+        text-shadow: 0 0 10px rgba(0, 224, 255, 0.5);
+    }
+</style>
+
+<div class="container text-center">
+    <h1 class="display-4 mb-5">Claims Management System</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-graduate fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Lecturer Portal</h5>
+                    <p class="card-text">Submit and track your claims</p>
+                    <a href="@Url.Action("Index", "Lecturer")" class="btn btn-primary">Enter as Lecturer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-tie fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Coordinator Portal</h5>
+                    <p class="card-text">Review and verify claims</p>
+                    <a href="@Url.Action("PendingClaims", "Coordinator")" class="btn btn-success">Enter as Coordinator</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-user-cog fa-3x text-warning mb-3"></i>
+                    <h5 class="card-title">Manager Portal</h5>
+                    <p class="card-text">Final approval of claims</p>
+                    <a href="@Url.Action("PendingClaims", "Manager")" class="btn btn-warning">Enter as Manager</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

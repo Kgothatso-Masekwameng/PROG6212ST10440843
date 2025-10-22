@@ -1,0 +1,35 @@
+[
+  {
+    "Id": 1,
+    "LecturerName": "Lebohang",
+    "HoursWorked": 100,
+    "HourlyRate": 76,
+    "TotalAmount": 7600,
+    "AdditionalNotes": "Has worked",
+    "SubmissionDate": "2025-10-21T15:02:17.7815029+02:00",
+    "Status": 3,
+    "Documents": []
+  },
+  {
+    "Id": 2,
+    "LecturerName": "thabo",
+    "HoursWorked": 100,
+    "HourlyRate": 400,
+    "TotalAmount": 40000,
+    "AdditionalNotes": "worked had",
+    "SubmissionDate": "2025-10-21T15:06:13.4013763+02:00",
+    "Status": 2,
+    "Documents": []
+  },
+  {
+    "Id": 3,
+    "LecturerName": "Thabang",
+    "HoursWorked": 100,
+    "HourlyRate": 500,
+    "TotalAmount": 50000,
+    "AdditionalNotes": "Im just Him",
+    "SubmissionDate": "2025-10-21T16:04:29.6999182+02:00",
+    "Status": 4,
+    "Documents": []
+  }
+]

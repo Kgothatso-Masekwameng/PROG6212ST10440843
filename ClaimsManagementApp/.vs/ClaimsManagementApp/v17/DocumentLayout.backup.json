@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\lecturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\lecturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C218A70-016E-4321-A0CB-C5202AC01387}|ICClaimTest1\\ICClaimTest1.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\icclaimtest1\\claimtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C218A70-016E-4321-A0CB-C5202AC01387}|ICClaimTest1\\ICClaimTest1.csproj|solutionrelative:icclaimtest1\\claimtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\manager\\pendingclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\manager\\pendingclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\manager\\pendingfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\manager\\pendingfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\lecturer\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\lecturer\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\coordinator\\pendingclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\coordinator\\pendingclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\supportingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\supportingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\views\\lecturer\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\views\\lecturer\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\services\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\services\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|c:\\users\\lab_services_student\\desktop\\progpt2st10440843\\claimsmanagementapp\\claimsmanagementapp\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0E6BFC-EFE9-4C16-9DE9-2C0B0DB4632F}|ClaimsManagementApp\\ClaimsManagementApp.csproj|solutionrelative:claimsmanagementapp\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimTest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ICClaimTest1\\ClaimTest.cs",
+              "RelativeDocumentMoniker": "ICClaimTest1\\ClaimTest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ICClaimTest1\\ClaimTest.cs",
+              "RelativeToolTip": "ICClaimTest1\\ClaimTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:35:57.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T14:31:20.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrackClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\TrackClaim.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Lecturer\\TrackClaim.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\TrackClaim.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Lecturer\\TrackClaim.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAQwJgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:07:21.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PendingFiles.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Manager\\PendingFiles.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Manager\\PendingFiles.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Manager\\PendingFiles.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Manager\\PendingFiles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T14:36:56.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Lecturer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\Index.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Lecturer\\Index.cshtml",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAqwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:59:24.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAuwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T14:05:42.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PendingClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Manager\\PendingClaims.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Manager\\PendingClaims.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Manager\\PendingClaims.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Manager\\PendingClaims.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwHYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T14:42:34.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:58:28.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Program.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:00:54.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PendingClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Coordinator\\PendingClaims.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Coordinator\\PendingClaims.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Coordinator\\PendingClaims.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Coordinator\\PendingClaims.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwGwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T14:29:08.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoordinatorController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\CoordinatorController.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Controllers\\CoordinatorController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\CoordinatorController.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Controllers\\CoordinatorController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:58:00.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:57:25.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupportingDocument.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\SupportingDocument.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\SupportingDocument.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\SupportingDocument.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\SupportingDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:53:28.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\FileService.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\FileService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:56:48.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubmitClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "RelativeToolTip": "ClaimsManagementApp\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:00:00.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\IFileService.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Services\\IFileService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\IFileService.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:56:07.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\ClaimService.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Services\\ClaimService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\ClaimService.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\ClaimService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:54:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\IClaimService.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Services\\IClaimService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Services\\IClaimService.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\Services\\IClaimService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:54:31.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "ClaimsManagementApp\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ProgPt2ST10440843\\ClaimsManagementApp\\ClaimsManagementApp\\Models\\Claim.cs",
+              "RelativeToolTip": "ClaimsManagementApp\\Models\\Claim.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:52:50.774Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
